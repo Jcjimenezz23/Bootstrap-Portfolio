@@ -1,0 +1,65 @@
+ body {
+
+    padding-top: 49px;
+  }
+ 
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+      .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+      background-color: #000000 !important;
+    }
+   }
+
+  /* Add a gray color to all navbar links */
+    .navbar li a, .navbar .navbar-brand { 
+    color: #d5d5d5 !important;
+    
+    }
+
+    /* On hover, the links will turn white */
+    .navbar-nav li a:hover    { 
+    color: #fff !important;
+    } 
+
+    /* The active link */
+    .navbar-nav li.active a {
+    color: #fff !important;
+    background-color:#29292c !important;
+    }
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 675px;}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #323333;
+      height: 100%;
+      color: #323333;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding-top: 10px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+
+    .aboutme {
+      background-color: #878B8C;
+      color: white;
+     }
+
+   #myimage1 {
+      display: block;
+      margin: auto;
+    }
